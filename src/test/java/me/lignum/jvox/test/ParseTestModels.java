@@ -49,7 +49,15 @@ public class ParseTestModels {
     @Test
     public void testChrKnight() throws IOException {
         testModel("/chr_knight.vox", 150, 1, 398, 256);
+    }
+
+    @Test
+    public void testTeapot() throws IOException {
         testModel("/teapot.vox", 150, 1, 28411, 256);
+    }
+
+    @Test
+    public void testMonu10() throws IOException {
         testModel("/monu10.vox", 150, 1, 150764, 256);
     }
 }
