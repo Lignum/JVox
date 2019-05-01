@@ -93,4 +93,12 @@ final class VoxRootChunk extends VoxChunk {
     public int[] getPalette() {
         return palette;
     }
+
+    public HashMap<Integer, VoxMaterial> getMaterials() {
+        return materials;
+    }
+
+    public HashMap<Integer, VoxOldMaterial> getOldMaterials() {
+        return oldMaterials;
+    }
 }

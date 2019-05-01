@@ -1,5 +1,7 @@
 package me.lignum.jvox;
 
+import java.util.HashMap;
+
 public final class VoxFile {
     private final int version;
     private final VoxRootChunk root;
@@ -15,6 +17,15 @@ public final class VoxFile {
 
     public int[] getPalette() {
         return root.getPalette();
+    }
+
+    public HashMap<Integer, VoxMaterial> getMaterials() {
+        return root.getMaterials();
+    }
+
+    @Deprecated
+    public HashMap<Integer, VoxOldMaterial> getOldMaterials() {
+        return root.getOldMaterials();
     }
 
     public int getVersion() {
