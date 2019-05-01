@@ -11,7 +11,7 @@ public final class Voxel {
         this.colourIndex = colourIndex;
     }
 
-    public Vector3 getPosition() {
+    public Vector3<Byte> getPosition() {
         return position;
     }
 
