@@ -37,7 +37,7 @@ final class VoxMATTChunk extends VoxChunk {
         }
     }
 
-    public VoxOldMaterial getMaterial() {
+    VoxOldMaterial getMaterial() {
         return material;
     }
 }

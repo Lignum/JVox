@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Optional;
 
-public final class ChunkFactory {
-    public static Optional<VoxChunk> createChunk(String id, InputStream stream, InputStream childrenStream) throws IOException {
+final class ChunkFactory {
+    static Optional<VoxChunk> createChunk(String id, InputStream stream, InputStream childrenStream) throws IOException {
         VoxChunk chunk = null;
 
         switch (id) {

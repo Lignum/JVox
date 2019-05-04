@@ -86,19 +86,19 @@ final class VoxRootChunk extends VoxChunk {
         }
     }
 
-    public VoxModel[] getModels() {
+    VoxModel[] getModels() {
         return models;
     }
 
-    public int[] getPalette() {
+    int[] getPalette() {
         return palette;
     }
 
-    public HashMap<Integer, VoxMaterial> getMaterials() {
+    HashMap<Integer, VoxMaterial> getMaterials() {
         return materials;
     }
 
-    public HashMap<Integer, VoxOldMaterial> getOldMaterials() {
+    HashMap<Integer, VoxOldMaterial> getOldMaterials() {
         return oldMaterials;
     }
 }

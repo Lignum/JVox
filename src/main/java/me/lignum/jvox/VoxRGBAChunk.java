@@ -31,7 +31,7 @@ final class VoxRGBAChunk extends VoxChunk {
         }
     }
 
-    public int[] getPalette() {
+    int[] getPalette() {
         return palette;
     }
 }

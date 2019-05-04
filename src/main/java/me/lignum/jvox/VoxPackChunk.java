@@ -10,7 +10,7 @@ final class VoxPackChunk extends VoxChunk {
         this.modelCount = StreamUtils.readIntLE(stream);
     }
 
-    public int getModelCount() {
+    int getModelCount() {
         return modelCount;
     }
 }

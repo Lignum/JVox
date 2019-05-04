@@ -13,7 +13,7 @@ final class VoxMATLChunk extends VoxChunk {
         material = new VoxMaterial(id, props);
     }
 
-    public VoxMaterial getMaterial() {
+    VoxMaterial getMaterial() {
         return material;
     }
 }

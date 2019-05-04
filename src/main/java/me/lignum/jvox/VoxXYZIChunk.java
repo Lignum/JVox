@@ -15,7 +15,7 @@ final class VoxXYZIChunk extends VoxChunk {
         }
     }
 
-    public Voxel[] getVoxels() {
+    Voxel[] getVoxels() {
         return voxels;
     }
 }

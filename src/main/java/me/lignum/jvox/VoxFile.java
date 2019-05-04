@@ -6,7 +6,7 @@ public final class VoxFile {
     private final int version;
     private final VoxRootChunk root;
 
-    protected VoxFile(int version, VoxRootChunk root) {
+    VoxFile(int version, VoxRootChunk root) {
         this.version = version;
         this.root = root;
     }
